@@ -3,6 +3,12 @@ import React, {Component} from 'react';
 import './post-add-form.css';
 
 export default class PostAddForm extends Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            
+        }
+    }
     render() {
         return (
             <form className="bottom-panel d-flex">
